@@ -26,6 +26,8 @@ android {
     }
 
     dexOptions {
+        javaMaxHeapSize "4g"
+
         preDexLibraries = false
         additionalParameters=['--core-library']
     }
